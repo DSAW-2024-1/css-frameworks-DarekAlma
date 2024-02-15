@@ -6,28 +6,45 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body> 
-    Your Result
-    76
-    of 100
-  
-    Great
-    You scored higher than 65% of the people who have taken these tests.
-  
-    Summary
-  
-    Reaction
-    80 / 100
-  
-    Memory
-    92 / 100
-  
-    Verbal
-    61 / 100
-  
-    Visual
-    72 / 100
-  
-    Continue
+    <main class="h-screen w-screen flex justify-center">
+      <div class="flex h-screen w-screen md:h-3/4 md:w-2/4 md:flex-row md:mx-auto md:my-auto  flex-col items-center w-full h-full">
+        <div class="h-1/2 w-full flex flex-col items-center align-center justify-around text-white p-4 gap-4 rounded-b-lg md:rounded-3xl md:h-3/4 md:w-full" style="background-color: #6541fd;" >
+          <p class="text-gray-300">Your Result</p>
+          <div class="flex flex-col align-center justify-center bg-gradient-to-b from-indigo-700 to-indigo-500 rounded-full w-1/4 h-2/4 items-center md:w-2/4 shadow-lg" >
+            <p class="font-bold text-4xl">76</p>
+            <p class="text-gray-300">of 100</p>
+          </div>   
+          <p class="font-bold">Great</p>
+          <p class="text-xs px-6 text-gray-300">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+        <div class="h-1/2 w-full flex flex-col px-4 align-center justify-around md:h-3/4 shadow-lg md:rounded-3xl">
+          <p class="font-bold md:text-2xl pt-2">Summary</p>  
+          <div class="bg-pink-100 rounded px-2 py-2 gap-4">
+            <img src="../assets/images/icon-reaction.svg" class="inline-block" alt="imagen rayito :> ">
+            <p class="inline-block text-red-500 font-bold">Reaction</p> 
+            <p class="inline-block float-right text-gray-400"> <strong class="text-black">80</strong> / 100</p>
+          </div>   
+          <div class="bg-yellow-50 rounded px-2 py-2">
+            <img src="../assets/images/icon-memory.svg" class="inline-block" alt="imagen cerebrito">
+            <p class="inline-block text-yellow-500 font-bold">Memory</p> 
+            <p class="inline-block float-right text-gray-400"> <strong class="text-black">92</strong> / 100</p>
+          </div>   
+          <div class="bg-green-50 rounded px-2 py-2">
+            <img src="../assets/images/icon-verbal.svg" class="inline-block" alt="imagen textico">
+            <p class="inline-block text-green-500 font-bold">Verbal</p> 
+            <p class="inline-block float-right text-gray-400"> <strong class="text-black">61</strong> / 100</p>     
+          </div>
+          <div class="bg-blue-50 rounded px-2 py-2">
+            <img src="../assets/images/icon-visual.svg" class="inline-block" alt="imagen ojito :O">
+            <p class="inline-block text-blue-500 font-bold">Visual</p> 
+            <p class="inline-block float-right text-gray-400"> <strong class="text-black">72</strong> / 100</p>
+          </div>   
+          <button class="bg-gray-800 text-white rounded-full py-2"> Continue</button>
+        </div>
+      </div>
+      
+    </main>
+
 
   </body>
 </html>
